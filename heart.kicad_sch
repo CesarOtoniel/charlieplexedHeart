@@ -1421,10 +1421,16 @@
 		(uuid "0ea9edfb-76bf-416b-9c7f-60a84b22a6d8")
 	)
 	(junction
-		(at 204.47 64.77)
+		(at 205.74 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19113abe-4f1f-4f7d-acc2-b32afe214469")
+		(uuid "1cc5e637-081e-426c-af06-d07b5766ef7c")
+	)
+	(junction
+		(at 144.78 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21a8d478-45c1-4e13-89c5-6f1d57832fdd")
 	)
 	(junction
 		(at 163.83 53.34)
@@ -1463,12 +1469,6 @@
 		(uuid "3918ea94-11ad-4bb5-81a7-3393006910a0")
 	)
 	(junction
-		(at 204.47 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4242f6a2-84d8-4c10-bcb6-e7fa6958860b")
-	)
-	(junction
 		(at 91.44 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1493,12 +1493,6 @@
 		(uuid "6bc89599-c617-4b98-b39b-773b3a4a1dbc")
 	)
 	(junction
-		(at 193.04 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ec63040-2a13-467f-84a1-dcaee57efcfb")
-	)
-	(junction
 		(at 124.46 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1511,12 +1505,6 @@
 		(uuid "83ca4db4-cb4c-4386-9f04-db6a52b38b2b")
 	)
 	(junction
-		(at 237.49 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84af06d5-1f57-49f5-93c6-c4e392d8b3de")
-	)
-	(junction
 		(at 72.39 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1527,24 +1515,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "940d65de-be2a-4a0c-b247-36c884daca32")
-	)
-	(junction
-		(at 227.33 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97e1de0a-9b20-48b8-a0de-bc2325cdc4ff")
-	)
-	(junction
-		(at 237.49 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "989a04ff-acb3-4b79-a4c9-e6fe6fe75b05")
-	)
-	(junction
-		(at 193.04 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aadce5d8-8052-4ea6-908b-963ac13caa06")
 	)
 	(junction
 		(at 217.17 64.77)
@@ -1595,16 +1565,52 @@
 		(uuid "c9c1f580-9c54-48d5-a1c9-274027de5bb7")
 	)
 	(junction
+		(at 237.49 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6094eed-9b08-4582-9c0b-9be2dcdfa28d")
+	)
+	(junction
 		(at 154.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db5f6585-d1cb-4fbe-80e1-94f3583e3dcd")
 	)
 	(junction
+		(at 198.12 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc349bb2-5ec5-416e-941a-16a6e993d930")
+	)
+	(junction
+		(at 227.33 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de208121-c96c-43b7-bd08-7a60d5c331d1")
+	)
+	(junction
 		(at 52.07 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e33f400b-c8c7-4b66-a138-e2da4396dce8")
+	)
+	(junction
+		(at 227.33 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e375e449-c8ef-4f3c-ba88-48a8579f864e")
+	)
+	(junction
+		(at 237.49 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8c4c249-d17c-4188-b77b-ac1c9fe561a1")
+	)
+	(junction
+		(at 198.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea8f1fe5-bc04-4916-8b10-f09b0d762dc6")
 	)
 	(junction
 		(at 110.49 77.47)
@@ -1672,6 +1678,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 77.47) (xy 237.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099897c5-1142-44b4-9281-02f60507f7c5")
+	)
+	(wire
+		(pts
 			(xy 92.71 99.06) (xy 139.7 99.06)
 		)
 		(stroke
@@ -1692,6 +1708,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 64.77) (xy 217.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d53f63a-a066-4183-bed8-705c2377dbb7")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1179e899-091c-4b86-9e2e-7965243f93bc")
+	)
+	(wire
+		(pts
 			(xy 53.34 34.29) (xy 53.34 40.64)
 		)
 		(stroke
@@ -1699,16 +1735,6 @@
 			(type default)
 		)
 		(uuid "12b9f52b-91b7-4cca-8d90-f5f07843dd4d")
-	)
-	(wire
-		(pts
-			(xy 193.04 64.77) (xy 204.47 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1553484d-335d-4786-bee8-264f9c559c75")
 	)
 	(wire
 		(pts
@@ -1772,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 64.77) (xy 217.17 76.2)
+			(xy 217.17 64.77) (xy 217.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 64.77) (xy 193.04 64.77)
+			(xy 120.65 64.77) (xy 198.12 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1882,13 +1908,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 99.06) (xy 217.17 83.82)
+			(xy 217.17 99.06) (xy 217.17 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33d23c39-ccf8-47d8-b13b-3fb2cbd786a5")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bb34e4-4e49-4f97-a582-143de368a5fe")
 	)
 	(wire
 		(pts
@@ -1902,16 +1938,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 247.65 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c79debc-2211-4a39-a4fd-a27b32e1e925")
-	)
-	(wire
-		(pts
 			(xy 110.49 77.47) (xy 91.44 77.47)
 		)
 		(stroke
@@ -1922,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 237.49 97.79)
+			(xy 237.49 93.98) (xy 237.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 247.65 90.17)
+			(xy 247.65 77.47) (xy 247.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1959,6 +1985,16 @@
 			(type default)
 		)
 		(uuid "4259e94a-0ac2-435a-9b84-05bffdd9719b")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428701c6-67fc-447c-aa03-b504d6f115a4")
 	)
 	(wire
 		(pts
@@ -1989,16 +2025,6 @@
 			(type default)
 		)
 		(uuid "52e65dab-8ab3-4530-be17-5d3b23341bd6")
-	)
-	(wire
-		(pts
-			(xy 204.47 64.77) (xy 217.17 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5394de65-c33c-4c0c-8789-6814f4f7c539")
 	)
 	(wire
 		(pts
@@ -2072,16 +2098,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 81.28) (xy 204.47 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae24047-b216-4dcc-9897-26967308ec52")
-	)
-	(wire
-		(pts
 			(xy 154.94 53.34) (xy 163.83 53.34)
 		)
 		(stroke
@@ -2092,13 +2108,23 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 83.82) (xy 227.33 99.06)
+			(xy 227.33 85.09) (xy 227.33 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b261a87-a861-4179-b47e-e3f27a5521c0")
+	)
+	(wire
+		(pts
+			(xy 227.33 99.06) (xy 237.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70794810-2b66-465b-8d54-29ffe1115b6e")
 	)
 	(wire
 		(pts
@@ -2172,6 +2198,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 64.77) (xy 205.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8b7c97-0c23-4363-b435-6c8fb4e0945e")
+	)
+	(wire
+		(pts
 			(xy 172.72 53.34) (xy 172.72 80.01)
 		)
 		(stroke
@@ -2192,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 64.77) (xy 193.04 73.66)
+			(xy 198.12 64.77) (xy 198.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2232,16 +2268,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a0f031-8548-4c8d-92da-a4e74f2c0bce")
-	)
-	(wire
-		(pts
 			(xy 91.44 64.77) (xy 96.52 64.77)
 		)
 		(stroke
@@ -2259,6 +2285,16 @@
 			(type default)
 		)
 		(uuid "985fca14-3d91-4308-8f0b-ba6d1329a2bb")
+	)
+	(wire
+		(pts
+			(xy 237.49 77.47) (xy 237.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2d7f6c-cff8-439d-b372-ec228610cf06")
 	)
 	(wire
 		(pts
@@ -2322,13 +2358,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 193.04 88.9)
+			(xy 237.49 77.47) (xy 247.65 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7a9184b-86b4-4161-8cc2-a261ebee24a2")
+		(uuid "a53001d2-2600-4815-ac75-55b97d8727d4")
 	)
 	(wire
 		(pts
@@ -2352,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 99.06) (xy 247.65 97.79)
+			(xy 247.65 93.98) (xy 247.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2402,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 99.06) (xy 247.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f24e83-c682-4602-90f9-0e471dbab5d2")
+	)
+	(wire
+		(pts
 			(xy 64.77 101.6) (xy 72.39 101.6)
 		)
 		(stroke
@@ -2422,17 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 237.49 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a52fb4-5b3d-45c1-b2a3-04f5fdf7fa5e")
-	)
-	(wire
-		(pts
-			(xy 227.33 64.77) (xy 227.33 76.2)
+			(xy 227.33 64.77) (xy 227.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2509,26 +2545,6 @@
 			(type default)
 		)
 		(uuid "c39355ff-3158-43bb-8e57-24a37af0e33b")
-	)
-	(wire
-		(pts
-			(xy 237.49 88.9) (xy 247.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c493ef69-ec71-4120-b7ca-9e164d3cca46")
-	)
-	(wire
-		(pts
-			(xy 237.49 88.9) (xy 237.49 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb07ee27-a36f-4106-a70d-ea3cea1215d6")
 	)
 	(wire
 		(pts
@@ -2662,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 163.83 88.9)
+			(xy 163.83 88.9) (xy 198.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2702,16 +2718,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 99.06) (xy 237.49 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f909e0b5-5b7b-4927-a35d-6239c7b071c4")
-	)
-	(wire
-		(pts
 			(xy 43.18 130.81) (xy 52.07 130.81)
 		)
 		(stroke
@@ -2719,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "fa0f6975-cee3-4a19-8bf2-80f2e0170c99")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 227.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf4fb51-4b54-4ca9-a429-830c21d4fc78")
 	)
 	(wire
 		(pts
@@ -2732,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 64.77) (xy 204.47 73.66)
+			(xy 205.74 64.77) (xy 205.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +3006,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 227.33 80.01 90)
+		(at 227.33 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2999,7 +3015,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cad7bc8-1646-4cea-9a16-dfe51dc513ad")
 		(property "Reference" "D18"
-			(at 231.14 80.3275 90)
+			(at 231.14 81.5975 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3024,7 @@
 			)
 		)
 		(property "Value" "LED_Filled"
-			(at 231.14 82.8675 90)
+			(at 231.14 84.1375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3034,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 227.33 80.01 0)
+			(at 227.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 80.01 0)
+			(at 227.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3052,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 227.33 80.01 0)
+			(at 227.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3418,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 193.04 77.47 270)
+		(at 198.12 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3411,7 +3427,7 @@
 		(fields_autoplaced yes)
 		(uuid "47ac6b5c-eded-4dda-86dd-643775568005")
 		(property "Reference" "D15"
-			(at 195.58 74.6125 90)
+			(at 200.66 79.6925 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3436,7 @@
 			)
 		)
 		(property "Value" "LED_Filled"
-			(at 195.58 77.1525 90)
+			(at 200.66 82.2325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 193.04 77.47 0)
+			(at 198.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 77.47 0)
+			(at 198.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3464,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 193.04 77.47 0)
+			(at 198.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4119,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 237.49 93.98 270)
+		(at 237.49 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4112,7 +4128,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ed68954-907d-4037-8bc3-e5696f9143f8")
 		(property "Reference" "D19"
-			(at 240.03 91.1225 90)
+			(at 240.03 87.3125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4137,7 @@
 			)
 		)
 		(property "Value" "LED_Filled"
-			(at 240.03 93.6625 90)
+			(at 240.03 89.8525 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4147,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 237.49 93.98 0)
+			(at 237.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 93.98 0)
+			(at 237.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4165,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 237.49 93.98 0)
+			(at 237.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4606,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 217.17 80.01 270)
+		(at 217.17 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4599,7 +4615,7 @@
 		(fields_autoplaced yes)
 		(uuid "90cf0bab-46c6-4305-b1b9-fd9c12d1a33e")
 		(property "Reference" "D17"
-			(at 219.71 77.1525 90)
+			(at 219.71 79.6925 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4624,7 @@
 			)
 		)
 		(property "Value" "LED_Filled"
-			(at 219.71 79.6925 90)
+			(at 219.71 82.2325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4634,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 217.17 80.01 0)
+			(at 217.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4643,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 80.01 0)
+			(at 217.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4652,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 217.17 80.01 0)
+			(at 217.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4742,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 247.65 93.98 90)
+		(at 247.65 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4735,7 +4751,7 @@
 		(fields_autoplaced yes)
 		(uuid "96332c93-1dd5-4983-9f00-2e9b6cf8486a")
 		(property "Reference" "D20"
-			(at 251.46 94.2975 90)
+			(at 251.46 90.4875 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4760,7 @@
 			)
 		)
 		(property "Value" "LED_Filled"
-			(at 251.46 96.8375 90)
+			(at 251.46 93.0275 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4770,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 247.65 93.98 0)
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 93.98 0)
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4788,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 247.65 93.98 0)
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5491,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 204.47 77.47 90)
+		(at 205.74 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5484,7 +5500,7 @@
 		(fields_autoplaced yes)
 		(uuid "f86ee210-580b-49ac-b55e-8bc295865204")
 		(property "Reference" "D16"
-			(at 208.28 77.7875 90)
+			(at 209.55 82.8675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5509,7 @@
 			)
 		)
 		(property "Value" "LED_Filled"
-			(at 208.28 80.3275 90)
+			(at 209.55 85.4075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5519,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 204.47 77.47 0)
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 77.47 0)
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5537,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 204.47 77.47 0)
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
